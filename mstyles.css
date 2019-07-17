@@ -1,0 +1,376 @@
+
+.body1 {
+  font-family: helvetica;
+
+}
+.brand {
+    color: white;
+    font-family: Arial,sans-serif;
+    font-size: 2em;
+}
+
+.navbar {
+    background: rgba(14,14,14,0.2);
+       min-height: 20px;
+    position: relative;
+    bottom: 10px;
+    z-index: 10;
+    
+}
+
+.carousel {
+    margin-top: -80px;
+    
+}
+.nav-link{
+    color: white!important;
+    font-family: Helvetica;
+
+   
+    
+}
+
+body{
+    background: url(images/background.jpg) center no-repeat;
+    background-size: cover;
+    
+}
+
+
+.btn:active{
+    position: relative;
+    top:2px;
+    
+}
+.navbar ul li a:hover{
+     ;
+    
+}
+
+.navbar ul li a:active{
+    position: relative;
+    top: 2px;
+}
+
+.header1 {
+    text-align:left;
+    position: relative;
+ 
+    
+}
+
+}
+
+.container(
+margin-top:0px;
+
+)
+.tab-content {
+    height: 500px;
+   
+}
+
+.tab-content .tab-pane p{
+    font-size: "20px";
+    
+    
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 70vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header {
+  
+    
+}
+
+header{
+    height: 900px;
+    
+}
+header .container {
+  position: relative;
+  z-index: 2;
+
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+    
+
+ 
+}
+
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+
+
+.container .row {
+    margin-top: 20px;
+
+
+}
+.container .col-sm-6 {
+    text-align:left;
+   margin-top: 60px;
+    margin-bottom: 60px;
+    border-top: 1px black;  
+    text-align: justify;
+}
+
+.container.col-sm-6 h1{
+    font-size: 3em;
+    
+}
+
+
+.container .col-sm-6 p{
+    font-size: 1.5em;
+    
+}
+
+.container .col-sm-6 .image {
+    text-align: center;
+    padding: -5%;
+    text-shadow: 2px 2px black;
+}
+
+.footer1 {
+    color: white!important;
+    
+}
+
+/* image shake */
+.container img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+ 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* image shake */
+/*footer*/
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+min-height: 40px;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+/*footer*/
+
+/*nav animation*/
+@keyframes mymove {
+    from {
+      left:  100px;
+         height: 0px;
+         opacity: 0;
+         border-bottom:0px;
+    }
+    to {
+        height: auto;
+
+    }
+}
+
+.navbar-nav a.nav-link{
+    font-family: 'Helvetica', sans-serif;
+  text-transform: uppercase;
+    padding: 0px !important;
+}
+ul.navbar-nav li.nav-item{
+  margin: 0 20px;
+}
+ul.navbar-nav .nav-item:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: width .5s ease, background-color .5s ease;
+}
+.navbar-nav .nav-item:hover:after {
+    width: 100%;
+    background:yellow;
+}
+/*nav animation*/
+
+
+
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #343a40; 
+}
+/*scrollbar*/
+
+
+ 
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 120%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width:1000px){
+    
+    header video {
+    position: block;
+    margin-top: -30px;
+    
+        
+        
+        
+    }
+    
+    .header {
+        height:900px;
+        padding-bottom: 50px;
+        
+    }
+    .container {
+        position: relative;
+
+    }
+    .navbar li {
+        padding-right: 50px;
+        
+    }
+    .navbar li  {
+       font-size: 15px;
+        
+        
+    } 
+    .brand { 
+        
+    }
+    
+.container  .image {
+       max-width: 100%;
+        
+    }
+        
+}
+        
+@media only screen and (max-width:580px){
+    
+    .brand {
+        max-width: 300px;
+        
+    }
+    .footer img{
+        width: 100px;
+        height: 30px 
+    
+    }
+    
+    
+}    
+
+
